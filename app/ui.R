@@ -15,7 +15,8 @@ shinyUI(fluidPage(
                      ),
             helpText('You can also costumize several aspects of the graphic:',
                      'the shape and size of the dot representing the data',
-                     'and also the title and labels of the axis.')
+                     'and also the title and labels of the axis.'),
+            helpText('Check the pitch presentation in: http://rpubs.com/pmeads/dppapp')
             )),
         column(8, wellPanel(
             plotOutput('plot1')

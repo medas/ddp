@@ -1,3 +1,6 @@
+---
+output: html_document
+---
 presenting a shiny app
 ========================================================
 author: 
