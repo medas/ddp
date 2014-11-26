@@ -45,5 +45,10 @@ shinyUI(fluidPage(
             textInput("xlab", label = h6("horizontal label"), value = names(iris)[[1]]),
             textInput("ylab", label = h6("vertical label"), value = names(iris)[[2]])
             ))
+        ),
+    fluidRow(
+        column(12, wellPanel(
+            includeMarkdown("../presenting.md")
+        ))
         )
 ))

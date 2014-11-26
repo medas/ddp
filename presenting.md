@@ -1,6 +1,3 @@
----
-output: html_document
----
 presenting a shiny app
 ========================================================
 author: 
@@ -15,6 +12,7 @@ The app is available on https://www.shinyapps.io/
 a repository for applications done with shiny. :-)
 
 The application can be run from here: https://coding.shinyapps.io/ddpshinyapp/
+The pitch presentation can be seen here: http://rpubs.com/pmeads/dppapp
 
 Brief description
 ========================================================
