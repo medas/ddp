@@ -1,3 +1,4 @@
+library(markdown)
 shinyUI(fluidPage(
     titlePanel('Graphical manipulation'),
     fluidRow(
@@ -48,7 +49,7 @@ shinyUI(fluidPage(
         ),
     fluidRow(
         column(12, wellPanel(
-            includeMarkdown("../presenting.md")
+            includeMarkdown("./presenting.md")
         ))
         )
 ))

@@ -1,6 +1,6 @@
 presenting a shiny app
 ========================================================
-author: 
+
 date: November 2014
 
 First Slide
@@ -12,7 +12,10 @@ The app is available on https://www.shinyapps.io/
 a repository for applications done with shiny. :-)
 
 The application can be run from here: https://coding.shinyapps.io/ddpshinyapp/
+
 The pitch presentation can be seen here: http://rpubs.com/pmeads/dppapp
+
+The Git repository is here: https://github.com/medas/ddp
 
 Brief description
 ========================================================
@@ -29,6 +32,7 @@ Slide With Plot
 
 The kmeans will try to find the numbers seletec on the data. A plot similar to the one here will beseen if you do a analysis with 4 cluester, the colors are dipecting the clusters and the kernels are displayed as asterics (*).
 ```{r}
+library(stats)
 clusters <- kmeans(iris[, 3, 1], 4)
 plot(iris[, 3, 1], col = clusters$cluster, pch = 20, cex = 3)
 points(clusters$centers, pch = 8, cex = 5, lwd = 3)
